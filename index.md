@@ -3,9 +3,9 @@
 The following is helpful little code snippets to assist with building PDF forms.
 
 **Calculating an Age from a date of birth**
-The script must go in the AGE field (calculation tab) and not the DOB field
+The script must go in the AGE field (calculation tab) and not the DOB field.
 
-As previously mentioned, be sure to set the date format correctly on the DOB field
+As previously mentioned, be sure to set the date format correctly on the DOB field.
 
 ```js
 event.value = "";
@@ -23,15 +23,17 @@ event.value = age;
 ```
 
 **Source**
-https://answers.acrobatusers.com/age-calculations-q66397.aspx
-Turn all text in field into upppercase
+
+(https://answers.acrobatusers.com/age-calculations-q66397.aspx)
+This code turns all text in field into upppercase.
 Make everything all caps after committing; that would be in the Validate event:
-
-
+```js
 event.value = event.value.toString().toUpperCase() ;
+```
       
 **Source**
-https://answers.acrobatusers.com/how-make-form-field-caps-q38840.aspx
+
+(https://answers.acrobatusers.com/how-make-form-field-caps-q38840.aspx)
 
 ## HTML & CSS Code Snippets
 Basic
@@ -101,7 +103,11 @@ cMsg: "Supported Resolutions Participant Form and Summary of Facts."
 ```
       
 ### Resources
-https://www.adobe.com/content/dam/acom/en/devnet/acrobat/pdfs/js_api_reference.pdf#page=322
-http://www.nk-inc.com/software/fdftoolkit.net/email-pdf-mailto-generator.aspx
-https://mailtolink.me/
-https://css-tricks.com/all-about-mailto-links/
+
+(https://www.adobe.com/content/dam/acom/en/devnet/acrobat/pdfs/js_api_reference.pdf#page=322) 
+
+(http://www.nk-inc.com/software/fdftoolkit.net/email-pdf-mailto-generator.aspx)
+
+(https://mailtolink.me/)
+
+(https://css-tricks.com/all-about-mailto-links/)
