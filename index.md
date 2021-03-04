@@ -1,4 +1,6 @@
 # Code Samples
+The following is a series of code snippets I have used in projects. This is a way of mebookmarking these snips. 
+
 ## Adobe Acrobat Code
 The following is helpful little code snippets to assist with building PDF forms.
 
@@ -25,6 +27,7 @@ event.value = age;
 **Source**
 
 https://answers.acrobatusers.com/age-calculations-q66397.aspx
+
 This code turns all text in field into upppercase.
 Make everything all caps after committing; that would be in the Validate event:
 ```js
@@ -74,15 +77,15 @@ https://css-tricks.com/snippets/html/mailto-links/
 This works on the desktop and on mobility - the trick is no spaces between the words and use **%20** symbale instead of the space
 
 ```html
-mailto:tmfmc@police.govt.nz?cc=SupResAuckland@police.govt.nz&subject=Supported%20Resolutions%20Participant%20referral%20and%20consent%20form
+mailto:john@yoursite.com?cc=SupResAuckland@police.govt.nz&subject=Supported%20Resolutions%20Participant%20referral%20and%20consent%20form
 ```
 The following relates to buttons on PDF forms and what code works with a PDF on a desktop and a PDF on iOS
 
 This works on the desktop but **NOT** on mobility
 
 ```js
-var to = "tmfmc@police.govt.nz";  
-var cc = "SupResAuckland@police.govt.nz";  
+var to = "johns@yoursite.com";  
+var cc = "Mary@yoursite.com";  
 var bcc = "";  
 var subject = "Supported Resolutions Participant referral and consent form";  
 var body = "";  
@@ -95,8 +98,8 @@ This works on the desktop but **NOT** on mobility
 ```js
 this.mailDoc({
 bUI: false,
-cTo: "tmfmc@police.govt.nz",
-cCC: "SupResAuckland@police.govt.nz",
+cTo: "john@yoursite.com",
+cCC: "mary@yoursite.com",
 cSubject: "Supported Resolutions Participant referral and consent form",
 cMsg: "Supported Resolutions Participant Form and Summary of Facts."
 });
