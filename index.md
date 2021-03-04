@@ -102,7 +102,7 @@ cMsg: "Supported Resolutions Participant Form and Summary of Facts."
 });
 ```
       
-### Resources
+## Resources
 
 #### Adobe Guides
 https://www.adobe.com/content/dam/acom/en/devnet/acrobat/pdfs/js_api_reference.pdf#page=322 
