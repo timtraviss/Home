@@ -24,9 +24,7 @@ event.value = age;
 }
 ```
 
-**Source**
-
-https://answers.acrobatusers.com/age-calculations-q66397.aspx
+**Source** - https://answers.acrobatusers.com/age-calculations-q66397.aspx
 
 This code turns all text in field into upppercase.
 Make everything all caps after committing; that would be in the Validate event:
@@ -34,9 +32,7 @@ Make everything all caps after committing; that would be in the Validate event:
 event.value = event.value.toString().toUpperCase() ;
 ```
       
-**Source**
-
-https://answers.acrobatusers.com/how-make-form-field-caps-q38840.aspx
+**Source** - https://answers.acrobatusers.com/how-make-form-field-caps-q38840.aspx
 
 ## HTML & CSS Code Snippets
 Basic
@@ -71,8 +67,7 @@ Just add the body parameter into the ever-growing list of parameters we are usin
         <a href="mailto:someone@yoursite.com?cc=someoneelse@theirsite.com, another@thatsite.com, me@mysite.com&bcc=lastperson@theirsite.com&subject=Big%20News&body=Body-goes-here">Email Us</a>
 ```           
 
-### Source
-https://css-tricks.com/snippets/html/mailto-links/
+**Source** - https://css-tricks.com/snippets/html/mailto-links/
 
 This works on the desktop and on mobility - the trick is no spaces between the words and use **%20** symbale instead of the space
 
