@@ -24,7 +24,7 @@ event.value = age;
 
 **Source**
 
-(https://answers.acrobatusers.com/age-calculations-q66397.aspx)
+https://answers.acrobatusers.com/age-calculations-q66397.aspx
 This code turns all text in field into upppercase.
 Make everything all caps after committing; that would be in the Validate event:
 ```js
@@ -33,7 +33,7 @@ event.value = event.value.toString().toUpperCase() ;
       
 **Source**
 
-(https://answers.acrobatusers.com/how-make-form-field-caps-q38840.aspx)
+https://answers.acrobatusers.com/how-make-form-field-caps-q38840.aspx
 
 ## HTML & CSS Code Snippets
 Basic
@@ -71,14 +71,14 @@ Just add the body parameter into the ever-growing list of parameters we are usin
 ### Source
 https://css-tricks.com/snippets/html/mailto-links/
 
-> This works on the desktop and on mobility - the trick is no spaces between the words use %20 instead //
+This works on the desktop and on mobility - the trick is no spaces between the words and use **%20** symbale instead of the space
 
 ```html
 mailto:tmfmc@police.govt.nz?cc=SupResAuckland@police.govt.nz&subject=Supported%20Resolutions%20Participant%20referral%20and%20consent%20form
 ```
 The following relates to buttons on PDF forms and what code works with a PDF on a desktop and a PDF on iOS
 
-> This works on the desktop but not on mobility //
+This works on the desktop but **NOT** on mobility
 
 ```js
 var to = "tmfmc@police.govt.nz";  
@@ -90,7 +90,7 @@ var showUserInterface = true;
 this.mailDoc(showUserInterface,to,cc,bcc,subject,body);  
 ```
       
-> This works on the desktop but not on mobility //
+This works on the desktop but **NOT** on mobility
 
 ```js
 this.mailDoc({
@@ -104,10 +104,17 @@ cMsg: "Supported Resolutions Participant Form and Summary of Facts."
       
 ### Resources
 
-(https://www.adobe.com/content/dam/acom/en/devnet/acrobat/pdfs/js_api_reference.pdf#page=322) 
+#### Adobe Guides
+https://www.adobe.com/content/dam/acom/en/devnet/acrobat/pdfs/js_api_reference.pdf#page=322 
 
-(http://www.nk-inc.com/software/fdftoolkit.net/email-pdf-mailto-generator.aspx)
+http://www.nk-inc.com/software/fdftoolkit.net/email-pdf-mailto-generator.aspx
 
-(https://mailtolink.me/)
+#### Mailto Links 
+https://mailtolink.me/
 
-(https://css-tricks.com/all-about-mailto-links/)
+https://css-tricks.com/all-about-mailto-links/
+
+#### Markdown Guides
+[Codecamp Markdown Guide](https://www.freecodecamp.org/news/how-to-format-code-in-markdown/)
+
+[Github Markdown Guide](https://guides.github.com/features/mastering-markdown/)
