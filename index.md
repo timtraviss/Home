@@ -113,7 +113,9 @@ cMsg: "Supported Resolutions Participant Form and Summary of Facts."
 
 [https://css-tricks.com/all-about-mailto-links/](https://css-tricks.com/all-about-mailto-links/)
 
-#https://mailtolink.me/### Markdown Guides
+[https://mailtolink.me/](https://mailtolink.me/)
+
+### Markdown Guides
 [Codecamp Markdown Guide](https://www.freecodecamp.org/news/how-to-format-code-in-markdown/)
 
 [Github Markdown Guide](https://guides.github.com/features/mastering-markdown/)
