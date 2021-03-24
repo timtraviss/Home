@@ -24,5 +24,10 @@ header("refresh:0");
 }
 ?>
 
-                               
+<?php
+//capture comment from form using post
+$comment = $_POST["comment"];
+//Get the file 
+$file = "log.txt";
+?>
                                
