@@ -13,7 +13,7 @@ else {
 $myfile = fopen ("log.txt", "w");
 header("refresh:0");
 }
-
+?>
 <form action="name.php" method="post>
 <textarea cols="20" rows ="50" name="comment">
 <?php
@@ -22,4 +22,4 @@ echo $current;
 </textarea>
            <input type="submit">                     
 </form>
-?>
+
