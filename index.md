@@ -29,6 +29,7 @@ event.value = age;
 
 This code turns all text in field into upppercase.
 Make everything all caps after committing; that would be in the Validate event:
+
 ```js
 event.value = event.value.toString().toUpperCase() ;
 ```
@@ -103,6 +104,7 @@ cMsg: "Supported Resolutions Participant Form and Summary of Facts."
       
 ## Adding UpperCase to a field 
 This code will turn the field into uppercase text.
+
 ```event.value = event.value.toUpperCase();```
 
 ## Resources
