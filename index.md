@@ -101,6 +101,10 @@ cMsg: "Supported Resolutions Participant Form and Summary of Facts."
 });
 ```
       
+## Adding UpperCase to a field 
+This code will turn the field into uppercase text.
+```event.value = event.value.toUpperCase();```
+
 ## Resources
 
 #### Adobe Guides
